@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
-    <a href="../index.html">Главная страница</a>
-    |
-    <a href="./catalog.html">Каталог</a>
-    <h1 class="catalog">Каталог</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non consectetur nesciunt officia provident quis, quod
+    <nav class="navbar">
+        <a class="link" href="../index.html">Главная страница</a>|
+        <a class="link" href="./catalog.html">Каталог</a>|
+        <a class="link" href="#">Контакты</a>
+    </nav>
+    <h1 class="heading-h1">Каталог</h1>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non consectetur nesciunt officia
+        provident quis, quod
         adipisci? Reiciendis quidem fugit recusandae modi maxime voluptatibus voluptate alias ullam atque. Iste, eum
         esse! Consequatur ipsa optio provident saepe obcaecati quod minima, quae sit delectus placeat nostrum sequi
         velit molestias sapiente porro dolores expedita quos commodi officia ab natus perferendis rem voluptatibus.
@@ -24,16 +28,25 @@
         Consectetur, id quis odit laboriosam laudantium necessitatibus porro adipisci illo totam praesentium, architecto
         sit culpa a quae repellat deleniti, nostrum maiores voluptatibus alias dignissimos asperiores? Sed debitis quod
         amet suscipit tenetur mollitia in.</p>
-    <div class="img_shoe"> 
-        <img src="../img/shoe_1.jpg" alt="shoe_1" width="300px">
-        <p class="shoe_name">Ботинки 1</p>
-        <p class="description">Красивые ботинки</p>
-        <img src="../img/shoe_2.jpg" alt="shoe_2" width="300px">
-        <p class="shoe_name">Ботинки 2</p>
-        <p class="description">Новые ботинки</p>
-        <img src="../img/shoe_3.jpg" alt="shoe_3" width="300px">
-        <p class="shoe_name">Ботинки 3</p>
-        <p class="description">Очень красивые ботинки</p>
+    <div class="img-shoe">
+        <div class="shoe-catalog">
+            <img class="img" src="../img/shoe_1.jpg" alt="shoe_1">
+            <h3 class="shoe_name">Ботинки 1</h3>
+            <p class="paragraph">Красивые ботинки</p>
+            <button class="btn" type="submit">Купить</button>
+        </div>
+        <div class="shoe-catalog">
+            <img class="img" src="../img/shoe_2.jpg" alt="shoe_2">
+            <h3 class="shoe_name">Ботинки 2</h3>
+            <p class="paragraph">Новые ботинки</p>
+            <button class="btn" type="submit">Купить</button>
+        </div>
+        <div class="shoe-catalog">
+            <img class="img" src="../img/shoe_3.jpg" alt="shoe_3">
+            <h3 class="shoe_name">Ботинки 3</h3>
+            <p class="paragraph">Очень красивые ботинки</p>
+            <button class="btn" type="submit">Купить</button>
+        </div>
     </div>
 
 </body>
